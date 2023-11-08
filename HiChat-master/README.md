@@ -23,35 +23,12 @@
 
 在学习本项目开发前，您应该有go基础、mysql基础、计算机网络基础。
 
-您在学习中可能需要，补充学习的知识：
-
-* [「Golang成长之路」系列文章](https://learnku.com/articles/61599)
-*    [GoWeb框架Gin学习总结](https://learnku.com/articles/69259)
-*    [MD5加密](https://learnku.com/articles/69126)
-*    [GORM学习入门](https://learnku.com/articles/68943)
-*   [基于viper的配置读取](https://learnku.com/articles/73184)
-
-#### 系统架构
-
-系统架构如下：
-
-<img src="https://blogfiles-iceymoss.oss-cn-hangzhou.aliyuncs.com/blogs/%E6%88%AA%E5%B1%8F2022-12-28%20%E4%B8%8B%E5%8D%883.01.10.png" style="zoom:50%;" />
-
-#### 通信流程
-
-通信流程如下：
-
-<img src="https://blogfiles-iceymoss.oss-cn-hangzhou.aliyuncs.com/blogs/%E6%88%AA%E5%B1%8F2022-12-28%20%E4%B8%8B%E5%8D%883.25.31.png" style="zoom:50%;" />
 
 ###  开发环境
 
 #### IDE: Goland
 
 #### 数据库工具：VScode
-
-环境搭建可参考这一篇文章：[web项目部署](https://learnku.com/articles/74054)
-
-
 
 ### 项目初始化
 
@@ -243,12 +220,6 @@ func main() {
 	initialize.InitDB()
 }
 ```
-
-
-
-### 总结
-
-到这里整个项目的初始化基本上完成了，主要就是项目目录文件结构的合理配置以及mysql连接池和日志的初始化，后续开始功能模块的开发请参考我的博客：[《从0到1搭建一个IM项目》](https://learnku.com/articles/74274)，感谢您的阅读。
 
 
 
